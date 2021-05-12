@@ -122,6 +122,7 @@ namespace BinaryTree
             if (from.Position.name == "Vicepresidente Financiero")
             {
                 totalSalary = from.Position.salary;
+                System.Console.WriteLine($"Salary the " + $"{from.Position.name}");
             }
             
             return totalSalary + salaryOfAnEmployee(from.Left) + salaryOfAnEmployee(from.Right);
